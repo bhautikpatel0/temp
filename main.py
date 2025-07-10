@@ -47,3 +47,5 @@ def read_google_sheet(sheet_id, sheet_range):
     except Exception as e:
         logger.error(f"❌ Failed to read Google Sheet: {e}")
         return pd.DataFrame()
+if name: "__main__"        
+    read_google_sheet()
